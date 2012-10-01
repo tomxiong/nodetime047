@@ -1,10 +1,10 @@
 {   
   "name" : "nodetime", 
-  "version" : "0.2.0",
-  "description" : "Performance Profiler",
-  "author": "Dmitri Melikyan <dmitri@rapidlogix.com>", 
+  "version" : "0.4.7",
+  "description" : "Performance Profiler and Monitor",
+  "author": "Dmitri Melikyan <dmitri@nodetime.com>", 
   "homepage": "http://nodetime.com", 
-  "keywords": ["profiling", "instrumentation", "response time", "real-time", "performance", "bottlenecks"],
+  "keywords": ["profiler", "profiling", "tracing", "cpu", "heap", "performance", "instrumentation", "response time", "performance", "bottlenecks", "monitoring", "analytics", "metrics", "alerts", "dtrace"],
   "contributors": [
   ],
   "main": "./index.js",
@@ -13,16 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dmelikyan/nodetime.git"
+    "url": "git://github.com/nodetime/nodetime.git"
   }, 
+  "dependencies": {
+    "request": "2.10.0"
+  },
   "optionalDependencies": {
-    "timekit": "*"
+    "timekit": "*",
+    "v8tools": "*"
   },
   "devDependencies": {
+    "dtrace-provider": "*",
     "express": ">=2.5.0",
     "socket.io": ">=0.9.0", 
     "redis": ">=0.7.0",
     "mongodb": ">=0.9.0",
+    "mongoose": ">=2.5.13",
     "mysql": ">=0.9.5",
     "pg": ">=0.6.17",
     "memcached": ">=0.0.8",
@@ -34,7 +40,6 @@
     "node" : ">=0.6.0" 
   }, 
   "licenses": [{ 
-    "type": "MIT",
-    "url": "http://github.com/dmelikyan/nodetime/raw/master/LICENSE"
+    "url": "http://github.com/nodetime/nodetime/raw/master/LICENSE"
   }]
 }
