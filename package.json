@@ -1,5 +1,5 @@
 {   
-  "name" : "nodetime", 
+  "name" : "nodetime047", 
   "version" : "0.4.7",
   "description" : "Performance Profiler and Monitor",
   "author": "Dmitri Melikyan <dmitri@nodetime.com>", 
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nodetime/nodetime.git"
+    "url": "git://github.com/tomxiong/nodetime047.git"
   }, 
   "dependencies": {
     "request": "2.10.0"
@@ -40,6 +40,6 @@
     "node" : ">=0.6.0" 
   }, 
   "licenses": [{ 
-    "url": "http://github.com/nodetime/nodetime/raw/master/LICENSE"
+    "url": "https://github.com/SSI-Avalon/nodetime/blob/master/LICENSE"
   }]
 }
