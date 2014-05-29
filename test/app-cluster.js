@@ -1,5 +1,5 @@
 
-var nodetime = require('nodetime');
+var nodetime = require('nodetime047');
 nodetime.on('session', function(token) { 
   console.log('on session', token);
 });
