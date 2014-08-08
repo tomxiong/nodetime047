@@ -1,6 +1,6 @@
 {   
   "name" : "nodetime047", 
-  "version" : "0.4.9",
+  "version" : "0.4.10",
   "description" : "Performance Profiler and Monitor",
   "author": "Dmitri Melikyan <dmitri@nodetime.com>", 
   "homepage": "http://nodetime.com", 
@@ -20,7 +20,8 @@
   },
   "optionalDependencies": {
     "timekit": "*",
-    "v8tools": "*"
+    "v8tools": "*",
+	"nodefly-uvmon": "*"
   },
   "devDependencies": {
     "dtrace-provider": "*",
